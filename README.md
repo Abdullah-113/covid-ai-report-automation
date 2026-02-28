@@ -1,6 +1,6 @@
-# 📊 AI-Powered COVID Situation Report Automation (n8n + GenAI)
+#  AI-Powered COVID Situation Report Automation (n8n + GenAI)
 
-## 🚀 Project Overview
+## Project Overview
 
 This project automates the generation of a daily COVID-19 situation report for India using:
 
@@ -13,7 +13,7 @@ The system reads aggregated COVID data, generates a simplified AI-based summary,
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Public health data often exists in raw tabular format and requires:
 
@@ -26,7 +26,7 @@ This project solves that by converting structured data into an easy-to-understan
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 Raw Excel Data  
 ⬇  
@@ -42,7 +42,7 @@ Automated Gmail Report
 
 ---
 
-## ⚙ n8n Workflow Steps
+## n8n Workflow Steps
 
 1. Schedule Trigger (Daily execution)
 2. Read India summary CSV
@@ -55,7 +55,7 @@ Automated Gmail Report
 
 ---
 
-## 🤖 GenAI Usage
+## GenAI Usage
 
 ### Input to AI:
 - National new cases
@@ -68,15 +68,13 @@ Automated Gmail Report
 - Non-technical language
 - Highlight current situation
 - Mention rising/falling trends (if available)
-- Limit to 150 words
-- Official briefing tone
 
 ### Output:
 AI-generated simplified daily COVID situation report.
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 - `n8n-workflow/` – Exported workflow JSON
 - `data/` – Sample aggregated datasets
@@ -84,33 +82,7 @@ AI-generated simplified daily COVID situation report.
 
 ---
 
-## 📧 Sample Output
+## Sample Output
 
 > On 12 May, India reported 72,341 new COVID-19 cases. The situation shows a moderate level of spread with a national positivity rate of 5.3%. Recoveries continue to outpace new infections, while vaccination efforts remain steady across the country. Maharashtra and Kerala reported the highest number of new cases today. Overall, continued monitoring and vaccination progress remain essential.
 
----
-
-## 🧠 Skills Demonstrated
-
-- Data Aggregation (Python + Pandas)
-- Workflow Automation (n8n)
-- Prompt Engineering
-- AI Integration (OpenAI)
-- Email Automation
-- End-to-End Data Pipeline Design
-
----
-
-## 🔮 Future Improvements
-
-- Add previous-day trend comparison
-- Add alert for high positivity rate
-- Slack integration
-- Forecasting model integration
-
----
-
-## 🧑‍💻 Author
-
-Abdullah Bin Mahfooz  
-Data Automation & AI Enthusiast
